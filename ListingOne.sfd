@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1479806616
-ModificationTime: 1480039886
+ModificationTime: 1480040346
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -6209,6 +6209,7 @@ SplineSet
  62 178 60 178 60 160 c 1
  36 160 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: cent
@@ -7034,16 +7035,34 @@ EndChar
 
 StartChar: onequarter
 Encoding: 188 188 337
-Width: 152
+Width: 154
 VWidth: 0
 Flags: W
-HStem: 0 21G<0 36.1304> 164 20G<115.87 152> 176 8<12 40>
-VStem: 40 24<92 176>
+HStem: 0 21G<2 38.1304 130 154> 44 8<118 130> 164 20G<117.87 154> 176 8<12 34>
+VStem: 34 26<92 176> 94 24<52 92> 130 24<0 44 52 92>
 LayerCount: 2
 Fore
-Refer: 86 185 S 1 0 0 1 -26 0 2
-Refer: 335 8260 S 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+12 184 m 1xde
+ 60 184 l 1
+ 60 92 l 1
+ 34 92 l 1
+ 34 176 l 1
+ 12 176 l 1
+ 12 184 l 1xde
+94 92 m 1
+ 118 92 l 1
+ 118 52 l 1
+ 130 52 l 1
+ 130 92 l 1
+ 154 92 l 1
+ 154 0 l 1
+ 130 0 l 1
+ 130 44 l 1
+ 118 44 106 44 94 44 c 1
+ 94 60 94 76 94 92 c 1
+EndSplineSet
+Refer: 335 8260 N 1 0 0 1 2 0 2
 EndChar
 
 StartChar: onehalf
@@ -7051,12 +7070,19 @@ Encoding: 189 189 338
 Width: 152
 VWidth: 0
 Flags: W
-HStem: 0 8<112 152> 0 21G<0 36.1304> 40 8<113.284 126.716> 86 8<113.176 126.824> 164 20G<115.87 152> 176 8<12 40>
-VStem: 40 24<92 176> 88 24<8 39.5039 68 85.5513> 128 24<50.5938 85.7413>
+HStem: 0 8<112 152> 0 21G<0 36.1304> 40 8<113.284 126.716> 86 8<113.176 126.824> 164 20G<115.87 152> 176 8<12 36>
+VStem: 36 24<92 176> 88 24<8 39.5039 68 85.5513> 128 24<50.5938 85.7413>
 LayerCount: 2
 Fore
 SplineSet
-120 48 m 2x7380
+12 184 m 5x3780
+ 60 184 l 5
+ 60 92 l 5
+ 36 92 l 5
+ 36 176 l 4
+ 12 176 l 4
+ 12 184 l 5x3780
+120 48 m 2
  126 48 128 48 128 68 c 0
  128 86 126 86 120 86 c 0
  114 86 112 86 112 68 c 1
@@ -7069,14 +7095,12 @@ SplineSet
  112 8 l 1
  152 8 l 1
  152 0 l 1xb380
- 88 0 l 1
+ 88 0 l 1x7380
  88 24 l 2
  88 42 101 48 119 48 c 2
- 120 48 l 2x7380
+ 120 48 l 2
 EndSplineSet
 Refer: 335 8260 N 1 0 0 1 0 0 2
-Refer: 86 185 N 1 0 0 1 -26 0 2
-Validated: 1
 EndChar
 
 StartChar: threequarters
